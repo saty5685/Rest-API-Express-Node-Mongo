@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-express-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saty5685/Rest-API-Express-Node-Mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saty5685/Rest-API-Express-Node-Mongo/issues"
+  },
+  "homepage": "https://github.com/saty5685/Rest-API-Express-Node-Mongo#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
