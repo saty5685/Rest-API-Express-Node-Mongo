@@ -1,1 +1,14 @@
-GET http://localhost:3001/subscribers
+
+
+GET http://localhost:3001/subscribers/61bdd109880cfdd6bf711346
+
+
+POST http://localhost:3001/subscribers
+Content-Type: application/json
+
+{
+    "name": "Rishi Singh",
+    "subscribedToChannel":"Code with Harry",
+    "subscribeDate":"08/08/2021"
+    
+}
